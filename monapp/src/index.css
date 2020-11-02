@@ -1,0 +1,44 @@
+
+
+.boutonProfil {
+    background-color: rgb(129, 24, 250);
+    border: none;
+    color: white;
+    margin-right: 2em;
+    width: 20%;
+    transform: translate(50%, 50%);
+}
+
+.UnProfil {
+    flex-wrap: nowrap;
+    border: 2px ridge black;
+    text-align: center;
+    transform: translate(0%, 30%);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+.UnTweet {
+    word-wrap: break-word;
+    border: 2px ridge black;
+    text-align: left;
+    padding: 10px;
+    transform: translateY(200%);
+}
+
+.imageProfil {
+    width: 10%;
+    height:10%;
+}
+
+.boutonCouleur {
+    background-color: white;
+    border: 1.6px solid grey;
+}
+
+.boutonCouleur:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
